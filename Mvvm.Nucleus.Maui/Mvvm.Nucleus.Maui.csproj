@@ -17,11 +17,11 @@
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 		<EnableWindowsTargeting>True</EnableWindowsTargeting>
-		<Version>0.2.5</Version>
-		<PackageId>Mvvm.Nucleus.Maui</PackageId>
+		<Version>1.0.0</Version>
+		<PackageId>ReinerTupaz.Nucleus.Maui</PackageId>
 		<Title>Nucleus MVVM for MAUI</Title>
-		<Description>MVVM Framework for MAUI mobile applications. Build on top of MAUI and the MVVM Community Toolkit.</Description>
-		<Authors>Erik Goverde</Authors>
+		<Description>Based on Mvvm.Nucleus.Maui 0.2.5 by EGoverde (https://github.com/EGoverde/Mvvm.Nucleus.Maui). This is an unofficial package that depends on my own fork of Mvvm.Nucleus.Maui 9.0.2 until the crashing issue gets fixed!</Description>
+		<Authors>Erik Goverde, Reinee Tupaz</Authors>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/EGoverde/Mvvm.Nucleus.Maui</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/EGoverde/Mvvm.Nucleus.Maui</RepositoryUrl>
